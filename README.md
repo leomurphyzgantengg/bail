@@ -52,7 +52,7 @@ const {
 } = require('@whiskeysockets/baileys');
 
 const client = makeWASocket({
-  browser: ["Ubuntu", "Chrome", "20.0.04"],
+  ['Ubuntu', 'Chrome', '20.00.1'],
   printQRInTerminal: true
 })
 ```
@@ -65,7 +65,7 @@ const {
 } = require('@whiskeysockets/baileys');
 
 const client = makeWASocket({
-  browser: ["Ubuntu", "Chrome", "20.0.04"],
+  ['Ubuntu', 'Chrome', '20.00.1'],
   printQRInTerminal: false,
   version: fetchLatestWAWebVersion()
   // Other options
